@@ -3,7 +3,7 @@ module github.com/temporalio/xk6-temporal
 go 1.18
 
 require (
-	github.com/prometheus/client_golang v1.3.0
+	github.com/prometheus/client_golang v1.11.1
 	go.k6.io/k6 v0.39.0
 )
 
@@ -12,7 +12,7 @@ require (
 	github.com/dop251/goja v0.0.0-20220516123900-4418d4575a41 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-sourcemap/sourcemap v2.1.4-0.20211119122758-180fcef48034+incompatible // indirect
-	github.com/json-iterator/go v1.1.8 // indirect
+	github.com/json-iterator/go v1.1.11 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
@@ -21,7 +21,7 @@ require (
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onsi/gomega v1.10.3 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
-	github.com/prometheus/common v0.7.0 // indirect
+	github.com/prometheus/common v0.26.0 // indirect
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/afero v1.3.4 // indirect
