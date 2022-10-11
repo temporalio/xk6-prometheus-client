@@ -1,4 +1,4 @@
-module github.com/temporalio/xk6-temporal
+module github.com/temporalio/xk6-prometheus-client
 
 go 1.18
 
