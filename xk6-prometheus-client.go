@@ -48,6 +48,10 @@ func (c *Client) Query(query string, ts time.Time) (model.Value, v1.Warnings, er
 	return c.api.Query(context.Background(), query, ts)
 }
 
+func (c *Client) QueryRange(query string, r v1.Range) (model.Value, v1.Warnings, error) {
+	return c.api.QueryRange(context.Background(), query, r)
+}
+
 // NewClient returns a new prometheus API Client.
 func (m *ModuleInstance) NewClient(address string) (*Client, error) {
 	client, err := api.NewClient(api.Config{Address: address})
